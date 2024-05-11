@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 400px;  /* 设置弹窗的宽度 */
+    height: 300px; /* 设置弹窗的高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;  /* 使内容区域填满 body */
+    box-sizing: border-box; /* 包括 padding 和 border 在内的总宽度 */
+}
+
+h1 {
+    color: #5a5a5a;
+}
+
+a {
+    color: #06c;
+    text-decoration: none; /* 移除链接下划线 */
+}
+#downloadBtn {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#downloadBtn:hover {
+    background-color: #0056b3;
+}
